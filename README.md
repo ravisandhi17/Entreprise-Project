@@ -1,10 +1,10 @@
-📌 **Overview**
+ **Overview**
 
 This project demonstrates a complete Enterprise Active Directory environment built using virtual machines. It simulates a real-world corporate network with multiple domain controllers, organizational units, and group policies.
 
 The project is designed to showcase system administration, identity management, and enterprise network configuration skills.
 
-🎯 **Objectives**
+ **Objectives**
 
 
 Deploy and configure Active Directory Domain Services (AD DS)
@@ -25,7 +25,7 @@ Apply Group Policies (GPOs)
 Test replication and domain functionality
 
 
-🖥️ **Project Infrastructure**
+ **Project Infrastructure**
 
 
 Virtual Machines
@@ -77,7 +77,7 @@ DNS handled by ROOTDC
 DHCP configured on ROOTDC
 
 
-🏗️ **Architecture**
+ **Architecture**
 
 
 ROOTDC → AD DS, DNS, DHCP
@@ -98,7 +98,7 @@ Client Machine → Domain-joined workstation
 ![PING RODC](screenshots/basic/DOMAIN_CONTROLLERS_ROOTDC_ADC_RODC.png)
 
 
-🧑‍💼 **Active Directory Structure**
+ **Active Directory Structure**
 
 
 Domain: ravikumar.online
@@ -110,7 +110,7 @@ OUs: HR, IT, Finance
 Groups: HR_GROUP, FINANCE_GROUP, IT_GROUP
 
 
-👥 **Users and Groups**
+ **Users and Groups**
 
 
 HR: hruser1, hruser2
@@ -151,16 +151,16 @@ Finance_Group
 
 
 
-🌐**Services Configured**
+**Services Configured**
 
 
-✅ **Active Directory Domain Services**
+ **Active Directory Domain Services**
 
 
 Forest: ravikumar.online
 
 
-✅ **DNS**
+ **DNS**
 
 
 Integrated with AD
@@ -169,7 +169,7 @@ Integrated with AD
 DNS Server: 10.0.0.1
 
 
-✅**DHCP**
+**DHCP**
 
 
 Scope: 10.0.0.150 – 10.0.0.165 (10.0.0.160 - Reserved for PC1)
@@ -188,7 +188,7 @@ DNS: 10.0.0.1
 
 
 
-🔁**Domain Controllers**
+**Domain Controllers**
 
 
 ADC (Additional Domain Controller)
@@ -206,7 +206,7 @@ repadmin /replsummary
 RODC (Read-Only Domain Controller)
 
 
-🔐**Group Policy (GPO)**
+**Group Policy (GPO)**
 
 Implemented policies include:
 
@@ -249,19 +249,19 @@ Updation of Group Policy: gpupdate /force
 ![GPO](screenshots/gpo/GPUPDATE_FORCE.png)
 
 
-🧪 **Testing & Validation**
+ **Testing & Validation**
 
 
-✔ Domain user login on client
+ Domain user login on client
 
 
-✔ DHCP IP assignment
+ DHCP IP assignment
 
 
-✔ GPO application verification
+ GPO application verification
 
 
-✔ AD replication check
+ AD replication check
 
 
 Commands used:
@@ -273,7 +273,7 @@ repadmin /showrepl
 gpupdate /force
 
 
-📸**Screenshots**
+**Screenshots**
 
 
 Stored in: screenshots/
@@ -297,7 +297,7 @@ GPO settings
 Client login
 
     
-🚀 **Key Skills Demonstrated**
+ **Key Skills Demonstrated**
 
 Active Directory Administration
 
@@ -317,7 +317,7 @@ Enterprise Network Design
 Troubleshooting & Replication
 
 
-🧠 **Learning Outcomes**
+ **Learning Outcomes**
 
 
 This lab provides hands-on experience in building and managing a realistic enterprise IT infrastructure, preparing for roles such as:
